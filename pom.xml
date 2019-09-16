@@ -75,6 +75,16 @@
                     </execution>
                 </executions>
             </plugin>
+            <plugin>
+            <groupId>com.heroku.sdk</groupId>
+            <artifactId>heroku-maven-plugin</artifactId>
+            <configuration>
+              <appName>justicelyapi</appName>
+              <processTypes>
+                <web>mvn </web>
+              </processTypes>
+            </configuration>
+          </plugin>
         </plugins>
     </build>
 
