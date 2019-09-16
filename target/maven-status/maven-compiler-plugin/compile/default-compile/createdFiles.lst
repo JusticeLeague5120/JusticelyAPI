@@ -1,0 +1,3 @@
+entities\assessment.class
+services\ApplicationConfig.class
+services\AssessmentREST.class
